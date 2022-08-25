@@ -1,0 +1,85 @@
+.upperc
+{
+  text-transform:uppercase;
+}
+
+.choose-y
+{
+	text-transform:uppercase;
+	font-size: 1.7em;
+}
+
+.choose-y span
+{font-size: .7em !important;color: #A0A0A0 !important;padding-top: 7px;FONT-WEIGHT: 600 !IMPORTANT;}
+
+.fun-facts .fun-head
+{
+	color: #febd0e;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.fun-facts .fun-head span {
+    display: inline-block;
+    color: #febd0e;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+/*-------------------------------*/
+/*    Carousel Fade Transition   */
+/*-------------------------------*/
+
+#fade-quote-carousel.carousel {
+  padding-bottom: 60px;
+}
+#fade-quote-carousel.carousel .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-inner .active {
+  opacity: 1;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-indicators {
+  bottom: 10px;
+}
+#fade-quote-carousel.carousel .carousel-indicators > li {
+  background-color: #FEBD0E;
+  border: none;
+}
+#fade-quote-carousel blockquote {
+    text-align: center;
+    border: none;
+}
+#fade-quote-carousel .profile-circle {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 100px;
+}
+
+
+
+
+
+e.inverted {
+    font-size: 3.5em;
+    padding-right: 14px;
+    font-style: italic;
+    margin-left: -28px;
+}
+e.inverted_end {
+    font-size: 3.5em;
+    font-style: italic;
+    float: right;
+    padding-top: 13px;
+}
+
+
